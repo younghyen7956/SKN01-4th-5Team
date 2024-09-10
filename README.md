@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,70:003300,100:00FF00&height=240&text=SKN01-4th-1Team&animation=&fontColor=00FF00&fontSize=90" width="1000" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,70:003300,100:00FF00&height=240&text=SKN01-4th-5Team&animation=&fontColor=002623&fontSize=90" width="1000" />
   
   <img width="1000" alt="image" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/7ea63fc3-95f0-44d5-a0f0-cf431cae34f1"> 
   
@@ -13,11 +13,11 @@
 <table align=center>
   <tbody>
     <tr>
-      <td align=center><b>한재혁</b></td>
-      <td align=center><b>민경원</b></td>
-      <td align=center><b>정아람</b></td>
-      <td align=center><b>최인헌</b></td>
-      <td align=center><b>이용휘</b></td>
+      <td align=center><b>김용현</b></td>
+      <td align=center><b>한병찬</b></td>
+      <td align=center><b>김지민</b></td>
+      <td align=center><b>이용우</b></td>
+      <td align=center><b>정원형</b></td>
     </tr>
     <tr>
       <td align="center">
