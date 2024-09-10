@@ -16,7 +16,6 @@
       <td align=center><b>김용현</b></td>
       <td align=center><b>한병찬</b></td>
       <td align=center><b>김지민</b></td>
-      <td align=center><b>이용우</b></td>
       <td align=center><b>정원형</b></td>
     </tr>
     <tr>
@@ -34,9 +33,6 @@
         <img src="https://github.com/user-attachments/assets/c01c579b-7f4f-436b-984a-74a26d2cef44"width="200px;" alt=""/>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/77eff59b-1c54-4d91-a49c-5f81cf28fb35"width="200px;" alt=""/>
-      </td>
-      <td align="center">
         <img src="https://github.com/user-attachments/assets/49822355-b1ef-485b-a45b-dc2199d8397b"width="200px;" alt=""/>
       </td>
     </tr>
@@ -44,7 +40,6 @@
       <td><a href="https://github.com/Jh-jaehyuk"><div align=center>@Jh-jaehyuk</div></a></td>
       <td><a href="https://github.com/MinMessi"><div align=center>@MinMessi</div></a></td>
       <td><a href="https://github.com/Ah-ram"><div align=center>@Ah-ram</div></a></td>
-      <td><a href="https://github.com/ih9511"><div align=center>@ih9511</div></a></td>
       <td><a href="https://github.com/y0ng98"><div align=center>@y0ng98</div></a></td>
     </tr>
   </tbody>
@@ -56,44 +51,42 @@
 # 1. Introduction Project (프로젝트 개요)
 
 ### ✅프로젝트 명
-논문 요약 및 설명 제공 서비스
+CHAT GTP
 
 ### ✅프로젝트 소개
-논문 요약 및 설명 제공 서비스
+주식 데이터 제공, 주식 요약 및 주식 매도 매매 서비스
 
 ### ✅프로젝트 필요성(배경)
 - 새로운 기술에 대한 연구가 과거 대비 매우 빠른 속도로 발표되고 있습니다.
 - 이에 새로운 기술을 논문을 통해 접하고자 하는 니즈가 발생하고 있음을 발견하였고, 이러한 니즈를 충족시키기 위해 논문을 읽을 수 있는 방식을 LLM을 통해 제공하여 많은 사람들이 이용할 수 있도록 서비스화하고자 합니다.
 
-## 비동기 통신 방식의 Deep Learning Local Server
-### Syncronous Communication
-- 동기(Syncronous)란 동시에 일어난다는 뜻입니다. 즉, Request와 Response가 동시에 일어나는 통신 방식입니다.
-- 노드 A와 노드 B 사이의 작업 처리 단위를 동시에 맞춥니다.
-- 요청한 결과가 그 자리에서 동시에 주어집니다.
-### Asyncronous Communication
-- 비동기(Asyncronous)란 동시에 일어나지 않는다는 뜻입니다. 즉, Request와 Response가 동시에 일어나지 않는 통신 방식입니다.
-- 노드 사이의 작업 처리 단위를 동시에 맞추지 않겠다는 것으로, 요청한 결과가 그 자리에서 주어지지 않습니다.
-### 각 통신 방식의 장단점
-- 동기 통신의 경우 설계가 간단하며, 직관적이지만 그 작업이 끝날 때까지 아무런 작업도 할 수 없다는 단점이 있습니다.
-- 비동기 통신의 경우 동기 통신보다 비교적 복잡한 구현이 필요하지만, 작업이 끝날 때 까지 기다리지 않아도 되기 때문에 그 동안 다른 작업을 수행할 수 있으므로 효율적인 자원의 사용이 가능합니다.
-### 비동기 통신 방식 DLLS
-- 모델이 Request에 따라 Response를 하기까지 입력에 대한 결과를 추론하는데에 시간이 필요합니다. 만약 Response를 반환하는 과정을 동기 통신 방식으로 구현한다면, 결과 반환이 완료될 때 까지 사용자는 아무것도 하지 못합니다.
-- 따라서, 모델이 추론하여 Response를 반환하는 과정을 비동기 방식으로 설계하여 사용자가 추론 요청 이외의 작업을 수행할 때에도 문제가 없도록 하였습니다.
-### 물리적 로컬 서버 구현 이유
-- AWS 상에서 LLM 모델의 Fine Tuning 및 추론 과정을 구동시킬 경우, 예산을 넘어서는 비용이 발생할 가능성이 존재합니다.
-- 이에 컴퓨팅 자원이 많이 필요한 부분을 따로 물리적 로컬 서버에서 구동하여 Response를 반환하도록 설계하였습니다.
-- 결과적으로, 모델 서빙 역할의 FastAPI와 DLLS 상의 AI Client 사이의 비동기 통신을 통해 비용적인 측면에서의 최적화를 달성하고 사용자가 서비스를 사용함에 있어서 불편함이 없도록 하였습니다.
-### TLS/SSL 보안 통신 환경 구축
-- 커스텀 서버 특성 상, 비교적 해킹에 취약할 가능성이 존재합니다. 이에 보안 프로토콜을 적용하여 외부에서 우리의 서비스에 접근할 수 없도록 보안 통신 환경을 구축하였습니다.
+현대인의 주식 투자의 문제
+현대 사회에서 주식 투자는 재테크의 중요한 수단으로 자리 잡았지
+만, 성공적인 투자를 위해서는 관련된 정보 수집과 분석이 필수적입
+니다. 특히, 주가에 영향을 미치는 뉴스는 중요한 정보원이지만, 일반
+투자자들이 바쁜 일상 속에서 모든 뉴스를 꼼꼼히 분석하고 예측하는
+것은 현실적으로 어렵습니다.
+
+
+### 기획 의도
+이러한 문제를 해결하고자, 뉴스 요약 및 주가 예측 서비스를 통해 일
+반 투자자들이 시간과 노력을 절약하면서도 효과적으로 정보를 얻고
+투자 결정을 내릴 수 있도록 돕는 것입니다. 인공지능과 자연어 처리
+기술을 결합해 복잡한 뉴스를 이해하기 쉽게 요약하고, 이를 기반으
+로 주가 예측을 제공하여, 투자를 더 편하게 하며 정보 비대칭을 줄이
+는 데 기여하는 것이 목표입니다
 
 ### ✅프로젝트 목표
-1. Front-End에서는 **TypeScript**와 **Vue.js + Vuetify3**를 이용하여 사용자 측면에서 유리한 UI-UX를 구축하였고, **Axios** 를 통해서 올바른 Request를 하는 것을 목표로 삼았습니다. 
-2. Back-End에서는 **Python**과 **Django**, **MySQL** 등을 이용하여 Request에 대한 정확한 Response와 원활한 웹사이트 운영하는 것을 목표로 삼았습니다.
-3. Fast API에서는 **Machine Learning** **Deep Learning** 이용하여 데이터를 분석 및 예측할 수 있도록 하였습니다.
-4. Deep Learning Local Server (DLLS) 에서는 **Fast API와 AI Client의 비동기 통신 환경**을 소켓 통신으로 구축하여 일반적인 동기 Request들이 처리될 때, 정상적으로 동작하도록 구축하였습니다.
-5. CI-CD는 지속적인 코드 통합과 지속적인 배포를 통해 궁극적으로 개발 속도를 높이고, 코드 품질을 유지하며, 개발과 운영의 경계를 허물며 신속하게 가치를 제공하는 것을 목표로 삼았습니다. 
-<br><br><br>
-
+뉴스 요약 서비스 제공: 사용자가 원하는 주식에 관련된 뉴스를 자동으
+로 수집하고, 복잡한 뉴스 내용을 이해하기 쉽게 요약하여 제공하는 서
+비스 구축.  
+주가 예측 기능 구현: 최신 뉴스에서 추출된 정보를 기반으로, 인공지
+능 알고리즘을 활용하여 주가 변동을 예측하는 모델 개발 및 제공.
+사용자 친화적 인터페이스 구축: 사용자가 손쉽게 원하는 주식에 대한
+뉴스와 주가 예측을 확인할 수 있는 직관적이고 효율적인 인터페이스
+를 제공합니다.  
+간편 주식 매매 서비스 : 사용자가 별도로 주식 서비스를 거치지 않고
+매도 및 매수 서비스를 제공합니다  
 
 
 # 2. Tech Stack (기술 스택)
@@ -235,26 +228,23 @@
 ```
 # 4. 애자일 보드
 ### Frontend - Frontend 페이지를 Vue 로 구성 (화면 설계서)
-![image](https://github.com/user-attachments/assets/b547b885-25f8-413f-ab40-3251e8b77e95)
-![image](https://github.com/user-attachments/assets/b947d9db-b2d1-4494-8842-82285289d6ff)
+![image](https://github.com/user-attachments/assets/7cf7d0d7-f84c-4b66-90af-385e9ffc0316)
 <br><br><br>
 
 ### Backend - Backend 데이터 관리로 Django 구성(요구 사항 정의서)
-![image](https://github.com/user-attachments/assets/89ece460-81bd-44cf-bc7d-644487b3b267)
+![image](https://github.com/user-attachments/assets/fcdb9e78-f126-4a98-9ef6-5353399d56e0)
 <br><br><br>
 
 ### FastAPI - AI 서빙용으로 FastAPI 구성
-![image](https://github.com/user-attachments/assets/ccd6592b-4e7c-4fab-a7fe-6f16e8515195)
+![image](https://github.com/user-attachments/assets/9fa7e0dc-68ff-43db-baf1-0c96926cd39f)
 <br><br><br>
 
-### AI Client - 비용 최적화를 위해 DLLS 구성 (모델 파인튜닝 및 추론 설계서)
-![image](https://github.com/user-attachments/assets/ee098b0b-77b0-4e53-9a47-836e61081638)
+### AI Client - 이번 프로젝트는 따로 학습을 하지 않아 로컬 서버를 사용하지 않았지만 추후 모델 추가를 위해 비용 최적화를 위해 DLLS 구성 (모델 파인튜닝 및 추론 설계서)
+![image](https://github.com/user-attachments/assets/d415e7aa-ac93-4b6d-b522-1c93a9fe9f09)
 <br><br><br>
-
-
 
 # 5. 비용 최적화를 위한 Deep Learning Local Server 구성 + 보안 설정을 위한 TLS / SSL 소켓 구성
-## 10-1 Socket Server (FastAPI) 구성 및 구동 방법
+## 5-1 Socket Server (FastAPI) 구성 및 구동 방법
 1. FastAPI 프로젝트 폴더 내에서 미리 구성해 놓은 소켓 통신 관련 submodule을 다음의 명령어를 통해 연결합니다.
 ```bash
 git submodule add "socket server submodule Github 주소" template
@@ -281,7 +271,7 @@ svr.crt
 6. 서버를 구동시키면 다음과 같이 ai-client의 접속을 대기하는 것을 확인할 수 있습니다.
 ![image](https://github.com/user-attachments/assets/dbdf40fe-1fc0-4e15-9c05-73618d202e63)
 
-## 10-2 Socket Client (ai-client) 구성 및 구동 방법
+## 5-2 Socket Client (ai-client) 구성 및 구동 방법
 1. ai-client 프로젝트 폴더 내에서 소켓 서버와 마찬가지로 미리 구성해 놓은 소켓 통신 관련 submodule을 다음의 명령어를 통해 연결합니다.
 ```bash
 git submodule add "socket client submodule Github 주소" template
@@ -303,22 +293,18 @@ client.crt
 
 
 
+# 6. Result (수행 결과)
+Frontend / Backend / local-client 동작이 잘 되는 지 확인하는 결과입니다.
 
+![image](https://github.com/user-attachments/assets/b55049c7-024d-452e-88e8-f420f8fe8903)
+![image](https://github.com/user-attachments/assets/1c5b209f-d415-4083-896e-b9a9af9b024d)
+![image](https://github.com/user-attachments/assets/7502c0b3-709a-4294-be26-a413870d821d)
+![image](https://github.com/user-attachments/assets/5f1a0be7-536a-4e85-a8d0-c9c33190726f)
+![image](https://github.com/user-attachments/assets/8f1c3e38-8147-44b1-b8c9-4843bf3cbe3d)
 
-
-
-# 10. Result (수행 결과)
-Frontend / Backend / FastAPI / DLLS 구성에서 모든 동작이 안정적으로 잘 실행되는지 확인
-FastAPI - DLLS 구성에서 사용자 요청에 따른 LLM 동작이 잘 동작하는지 확인
-구성한 사용자 정의형 프로토콜이 잘 동작하는지 확인
-시연 결과 모습
-
-![image](https://github.com/user-attachments/assets/09b2e0f6-66a1-4288-a012-81d424b158e9) 
-![image](https://github.com/user-attachments/assets/4f6940df-a192-43a9-a4d0-8e425dc25290)
-
-# 11. 한 줄 회고
+# 7. 한 줄 회고
 🤓<b>김용현</b>  
-_AWS와 Docker에 대해서 배우고 싶었는데, 단순히 배우는 것에서 그치지 않고 웹 애플리케이션 작성부터 배포까지 경험할 수 있어서 정말 좋은 경험이었습니다! 팀원분들도 같이 열심히 해주셔서 어렵지 않게 마무리 할 수 있었습니다. 다들 고생하셨습니다!!👏_  
+_이번 프로젝트를 하면서 배포랑 잡히지 않았던 front,backen 개념을 가져가서 좋은 경험이였습니다. 다들 수고 많으셨습니다.!! 👏_  
 
 👨‍💻<b>김지민</b>  
 _AWS -GitHub Actions-Docker등을 이용한 CI-CD 구축을 직접 경험해볼 수 있어서 좋았습니다._  
