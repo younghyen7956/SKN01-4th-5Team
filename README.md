@@ -304,14 +304,6 @@ client.crt
 
 
 
-# 6. 각자 팀 주제에 따라 TF-IDF 기반의 벡터 산출
-# 7. 주제에 맞게 벡터 결과를 비교
-# 8. 검색 속도 향상을 위해 벡터 값을 벡터 DB 에 저장
-# 9. 사용자 요청에 대한 검색 속도 향상을 통한 응답성 증대
-
-
-
-
 
 
 
@@ -323,27 +315,5 @@ FastAPI - DLLS 구성에서 사용자 요청에 따른 LLM 동작이 잘 동작�
 
 ![image](https://github.com/user-attachments/assets/09b2e0f6-66a1-4288-a012-81d424b158e9) 
 ![image](https://github.com/user-attachments/assets/4f6940df-a192-43a9-a4d0-8e425dc25290)
-![image](https://github.com/user-attachments/assets/026a0e22-7868-4cf3-9aad-6911ae90a7a6)
-![image](https://github.com/user-attachments/assets/acebf5fb-cbfc-4053-96f8-57879e1ee081)
-![image](https://github.com/user-attachments/assets/c4017585-5472-48d0-905b-ec3b713c7ce3) 
-![image](https://github.com/user-attachments/assets/ffe79024-74c2-42b2-bab7-d759514eb208)  
-
-
-
-
-  
-# 11. 한 줄 회고
-🤓<b>한재혁</b>  
-_AWS와 Docker에 대해서 배우고 싶었는데, 단순히 배우는 것에서 그치지 않고 웹 애플리케이션 작성부터 배포까지 경험할 수 있어서 정말 좋은 경험이었습니다! 팀원분들도 같이 열심히 해주셔서 어렵지 않게 마무리 할 수 있었습니다. 다들 고생하셨습니다!!👏_  
-
-👨‍💻<b>민경원</b>  
-_AWS -GitHub Actions-Docker등을 이용한 CI-CD 구축을 직접 경험해볼 수 있어서 좋았습니다._  
-
-😺<b>정아람</b>  
-_CI/CD 환경 구성으로 프로젝트 배포를 자동화하고 AWS와 결합해 서비스를 할 수 있는 좋은 경험이었습니다._  
-
-🪐<b>최인헌</b>  
-_Django, MySQL과 Vue를 활용하여 웹 기반 서비스들의 작동 방식을 이해하는 기회가 되었고, AWS와 GitHub Actions를 활용하여 배포까지 해봄으로서 CI/CD가 어떻게 이루어지는지 알 수 있었던 계기가 되었습니다. 모두 고생 많으셨습니다!_  
-
-😁<b>이용휘</b>  
+![형</b>  
 _AWS와 Docker를 제대로 다루어 본 것은 처음인데, 다양한 issue들을 겪어서 힘들었지만 그만큼 많이 배운 것 같습니다._  
