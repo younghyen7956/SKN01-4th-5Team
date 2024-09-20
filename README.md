@@ -21,26 +21,26 @@
     <tr>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/80f0a998-61ab-4de5-a652-51575e8a4468"width="200px; alt=""/>
+          <img src="https://github.com/user-attachments/assets/b3f8ba4e-ffaf-4144-a139-95b098aa0a89"width="200px; alt=""/>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/30f29d8b-bcec-46c7-bce6-e6e4ec414e55"width="200px;" alt=""/>
+          <img src="https://github.com/user-attachments/assets/aa8f8871-eced-4b8c-a50e-94ade1db7f93"width="200px;" alt=""/>
         </div>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/c01c579b-7f4f-436b-984a-74a26d2cef44"width="200px;" alt=""/>
+        <img src="https://github.com/user-attachments/assets/200af7be-19bb-495f-9fcf-3ea0a88e3b2e"width="200px;" alt=""/>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/49822355-b1ef-485b-a45b-dc2199d8397b"width="200px;" alt=""/>
+        <img src="https://github.com/user-attachments/assets/bbb83087-d486-44f8-ac18-f2424419e8fc"width="200px;" alt=""/>
       </td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Jh-jaehyuk"><div align=center>@Jh-jaehyuk</div></a></td>
-      <td><a href="https://github.com/MinMessi"><div align=center>@MinMessi</div></a></td>
-      <td><a href="https://github.com/Ah-ram"><div align=center>@Ah-ram</div></a></td>
-      <td><a href="https://github.com/y0ng98"><div align=center>@y0ng98</div></a></td>
+      <td><a href="https://github.com/younghyen7956"><div align=center>@Jh-jaehyuk</div></a></td>
+      <td><a href="https://github.com/onebottlekick"><div align=center>@MinMessi</div></a></td>
+      <td><a href="https://github.com/jimin9703"><div align=center>@Ah-ram</div></a></td>
+      <td><a href="https://github.com/jung won hyeong"><div align=center>@y0ng98</div></a></td>
     </tr>
   </tbody>
 </table>
@@ -304,13 +304,14 @@ Frontend / Backend / local-client 동작이 잘 되는 지 확인하는 결과�
 
 # 7. 한 줄 회고
 🤓<b>김용현</b>  
-_이번 프로젝트를 하면서 배포랑 잡히지 않았던 front,backen 개념을 가져가서 좋은 경험이였습니다. 다들 수고 많으셨습니다.!! 👏_  
+_이번 프로젝트를 하면서 aws 배포랑 잡히지 않았던 front,backend 개념을 얻고 localserver와 fastapi 등 비동기 처리에 대해 많이 배우게 된 좋은 경험이였습니다. 다들 수고 많으셨습니다.!! 👏_  
 
 👨‍💻<b>김지민</b>  
 _AWS -GitHub Actions-Docker등을 이용한 CI-CD 구축을 직접 경험해볼 수 있어서 좋았습니다._  
 
 🪐<b>한병찬</b>  
-_Django, MySQL과 Vue를 활용하여 웹 기반 서비스들의 작동 방식을 이해하는 기회가 되었고, AWS와 GitHub Actions를 활용하여 배포까지 해봄으로서 CI/CD가 어떻게 이루어지는지 알 수 있었던 계기가 되었습니다. 모두 고생 많으셨습니다!_  
+_이번 프로젝트에서 금융 데이터 분석의 복잡성과 언어 모델이 가진 한계를 동시에 경험하였다. 주가 예측 같은 고차원 문제에는 다양한 요소들이 복합적으로 작용하기 때문에 단순히 주가 뿐만 아니라 기업 관련 뉴스를 가져와 LLM에 프롬프트로 제공하여 학습하는 방식이 효과적일 수 있음을 알게 되었다. 앞으로도 이러한 도전적인 프로젝트들에 계속해서 참여하면서 더 많은 지식과 경험을 쌓아가고 싶다._  
 
 😁<b>정원형</b>  
-_AWS와 Docker를 제대로 다루어 본 것은 처음인데, 다양한 issue들을 겪어서 힘들었지만 그만큼 많이 배운 것 같습니다._  
+_AWS와 Docker를 제대로 다루어 본 것은 처음인데, 다양한 issue들을 겪어서 힘들었지만 그만큼 많이 배운 것 같습니다.
+또한 이번 프로젝트를 통해 Vue.js와 Vuetify를 활용한 동적 데이터 처리와 사용자 경험 향상에 대한 깊은 이해를 얻었으며, Django 백엔드 작업을 통해 프론트엔드와 백엔드 개발 역량을 한층 더 발전시킬 수 있었습니다.._  
