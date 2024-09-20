@@ -37,10 +37,10 @@
       </td>
     </tr>
     <tr>
-      <td><a href="https://github.com/younghyen7956"><div align=center>@Jh-jaehyuk</div></a></td>
-      <td><a href="https://github.com/onebottlekick"><div align=center>@MinMessi</div></a></td>
-      <td><a href="https://github.com/jimin9703"><div align=center>@Ah-ram</div></a></td>
-      <td><a href="https://github.com/jung won hyeong"><div align=center>@y0ng98</div></a></td>
+      <td><a href="https://github.com/younghyen7956"><div align=center>@younghyen7956</div></a></td>
+      <td><a href="https://github.com/onebottlekick"><div align=center>@onebottlekick</div></a></td>
+      <td><a href="https://github.com/jimin9703"><div align=center>@jimin9703</div></a></td>
+      <td><a href="https://github.com/jung won hyeong"><div align=center>@jung won hyeong</div></a></td>
     </tr>
   </tbody>
 </table>
